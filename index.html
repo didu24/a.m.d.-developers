@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>A.M.D. DEVELOPERS</title>
+    <!--  Bootstrap Style -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <!--  Font-Awesome Style -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <!--  Animation Style -->
+    <link href="css/animate.css" rel="stylesheet" />
+    <!--  Pretty Photo Style -->
+    <link href="css/prettyPhoto.css" rel="stylesheet" />
+    <!--  Google Font Style -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <!--  Custom Style -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <!--Gallery-->
+		<link rel="stylesheet" type="text/css" href="css/demo11.css" />
+		<link rel="stylesheet" type="text/css" href="css/style11.css" />
+		<link rel="stylesheet" type="text/css" href="css/elastislide11.css" />
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css' />
+		<noscript>
+			<style>
+				.es-carousel ul{
+					display:block;
+				}
+
+			</style>
+		</noscript>
+		<script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">	
+			<div class="rg-image-wrapper">
+				{{if itemsCount > 1}}
+					<div class="rg-image-nav">
+						<a href="#" class="rg-image-nav-prev">Previous Image</a>
+						<a href="#" class="rg-image-nav-next">Next Image</a>
+					</div>
+				{{/if}}
+				<div class="rg-image"></div>
+				<div class="rg-loading"></div>
+				<div class="rg-caption-wrapper">
+					<div class="rg-caption" style="display:none;">
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</script>
+    <!--end Gallery-->
+    <style type="text/css">
+<!--
+.style1 {
+	color: #0b0b61;
+	font-weight: bold;
+	font-family: tahoma;
+}
+.style2 {color: #0b0b61}
+.style3 {
+	color: #0066CC;
+	font-family: tahoma;
+	font-weight: bold;
+}
+.style4 {font-family: tahoma}
+-->
+<!--@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 2s slidy infinite; 
+}-->
+    </style>
+</head>
+<body>
+     <!-- NAV BAR START -->
+    <div class="navbar navbar-default navbar-fixed-top move-me ">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+<div style="
+    position: fixed; 
+top: 5; 
+left: 20px; 
+z-index: 1001;">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" class="navbar-brand-logo " alt="" />
+</div>
+                </a>
+                
+                <div class="navbar-collapse collapse move-me">
+                <ul class="nav navbar-nav navbar-right">
+<div style="
+    position: fixed; 
+top: 5; 
+right: 35px; 
+z-index: 1001;">
+                  <section class="color-3">
+				<nav class="cl-effect-15">
+					<a href="#home" data-hover="НАЧАЛО">НАЧАЛО</a>
+					<a href="#about" data-hover="ЗА НАС">ЗА НАС</a>
+					<a href="#port" data-hover="ПОРТФОЛИО">ПОРТФОЛИО</a>
+                                        <a href="#price" data-hover="ЦЕНИ">ЦЕНИ</a>
+					<a href="#contact" data-hover="КОНТАКТИ">КОНТАКТИ</a>
+				</nav>
+			</section>
+                </ul>
+            </div>
+            </div>
+            </div>
+            
+
+        </div>
+    </div>
+    <!-- NAV BAR END -->
+
+    <!-- HOME SECTION START -->
+    <div id="home" >
+        
+<!--<div id="slider">
+<figure>
+<img src="../images/frontsmall.jpg">
+<img src="../img/head.jpg">
+</figure>
+</div>-->
+        <div class="overlay2">
+            <!--<div class="container">
+                <div class="row ">
+                    <div class="col-lg-12 col-md-12 head-text">
+                        <h1 id="divDisp" ><i style="font-size:30px;color:#b5b4b4;">изработка на</i><br> УЕБ САЙТОВЕ</h1>
+                    </div>
+
+                        </div>
+                    </div>
+                </div>-->
+
+            </div>
+
+        </div>
+
+
+    </div>
+    <!-- HOME SECTION END -->
+
+<!-- ABOUT SECTION START -->
+    <div id="about" >
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 sub-head">
+                    <h2 class="animated rollIn wow style1"  data-wow-delay="0.3s">ЗА НАС</h2>
+                    <p class="sub-head">A.M.D. Developers Разработка на лични и фирмени уеб сайтове на достъпна цена, със собствен административен панел за управление.</p>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-lg-4 col-md-4">
+                    <div class="media wow rotateIn animated" data-wow-delay="0.2s">
+                        <div class="pull-left">
+                            <i class="fa fa-html5 fa-4x  "></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Изработка на HTML5 </h3>
+                            <p class="media-heading">Най-новото и най-доброто в разработката на уеб сайтове.</p>
+                  
+                            
+                        </div>
+                        <div class="media wow rotateIn animated" data-wow-delay="0.3s">
+                        <div class="pull-left">
+                            <i class="fa fa-css3 fa-4x  "></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading"> CSS3 </h3>
+                            <p>За една съвременна визия. </p>
+
+                      </div>
+                    </div>
+
+                        
+                        <div class="media-body">
+                            
+                            
+
+                      </div>
+                    </div>
+                    <div class="media wow rotateIn animated" data-wow-delay="0.3s">
+                        <div class="pull-left">
+                            <i class="fa fa-wordpress fa-4x  "></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading"> Wordpress </h3>
+                            <p>Изработване на уебсайтове чрез wordpress </p>
+
+                      </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-4 wow bounceInDown animated" style="padding: 10px;" data-wow-delay="0.6s"   >
+                    <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="item">
+
+                                <img src="img/slider/1.jpg" class="img-thumbnail" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/slider/2.jpg" class="img-thumbnail" alt="">
+                            </div>
+                            <div class="item active">
+                                <img src="img/slider/3.jpg" class="img-thumbnail" alt="">
+                            </div>
+                        </div>
+                        <!--INDICATORS-->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-slider" data-slide-to="0" class=""></li>
+                            <li data-target="#carousel-slider" data-slide-to="1" class=""></li>
+                            <li data-target="#carousel-slider" data-slide-to="2" class="active"></li>
+                        </ol>
+                         
+                    </div>
+                    
+                </div>
+                
+
+                <div class="col-lg-4 col-md-4">
+
+                    <div class="media wow rotateIn animated" data-wow-delay="0.4s">
+                        <div class="pull-left">
+                            <i class="fa fa-tablet fa-4x  "></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Responsive Design</h3>
+                            <p>Нашите уебсайтове са оптимизирани за перфектна визуализация и работа на всички устройства - от компютри до таблети и смартфони. </p>
+
+                      </div>
+                    </div>
+                  <div class="media wow rotateIn animated" data-wow-delay="0.5s">
+                        <div class="pull-left">
+                            <i class="fa fa-globe fa-4x  "></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">SEO оптимизация </h3>
+                            <p>Процес по подобряване и грижа за сайта, който води до популяризиране и по-лесно откриване на вашия бизнес сайт</p>
+
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            
+<div class="row pad-top-botm wow flipInX animated" data-wow-delay="0.7s">
+              <div class="col-lg-8 col-md-8 col-sm-8 " >
+            <!--************CODE GEOMAP************-->
+<script type="text/javascript" src="http://geoloc4.geostats.ovh/private/geomap.js?compte=391319737828"></script>
+<noscript>
+<a href="http://www.geovisites.com/en/directory/internet_website-creation.php?compte=391319737828"  target="_blank"><img src="http://geoloc4.geostats.ovh/private/geomap.php?compte=391319737828" border="0" alt="website creation"></a>
+
+<br>Please do not change this code for a perfect fonctionality of your counter
+<a href="http://www.geovisites.com/en/directory/internet_website-creation.php">website creation</a>
+</noscript>
+<br><a href="http://www.geovisite.com/en/">counter widget</a>
+<!--************END CODE GEOMAP************-->
+                            
+                 
+                </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+    <!-- ABOUT SECTION END -->
+
+<!-- PRICE DISCOUNT SECTION START -->
+    <div class="donars-section" id="port">
+        <div class="overlay">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-12 col-md-12 ">
+                        <div id="testimonials" class="carousel slide" data-ride="carousel">
+
+                            <ol class="carousel-indicators">
+                                <li data-target="#testimonials" data-slide-to="0" class="active"></li>
+                                <li data-target="#testimonials" data-slide-to="1" class=""></li>
+                                <li data-target="#testimonials" data-slide-to="2" class=""></li>
+                                <li data-target="#testimonials" data-slide-to="3" class=""></li>
+                                <li data-target="#testimonials" data-slide-to="4" class=""></li>
+                            </ol>
+
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="container center">
+                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
+
+                                            <h4><strong class="c-black">НАШИТЕ ПРОЕКТИ</strong> </h4>
+                                            <div class="user-img pull-right">
+                                                <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <img src="img/AMDsite.png" alt="" class="img-image-responsive">
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="container center">
+                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
+                                            <h4><a target="_new" href="http://www.mdcars.eu.pn"><img src="img/MDsite.png" alt="" class="img-image-responsive"></a></h4>
+                                            <div class="user-img pull-right">                                             
+           
+            <img src="img/md.png" alt="" class="img-image-responsive">
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="container center">
+                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
+                                            <h4><a target="_new" href="http://www.alayaart.com"><img src="img/art.png" alt="" class="img-image-responsive"></a></h4>
+                                            <div class="user-img pull-right">
+                                             
+              <br>            
+               <img src="img/art1.png" alt="" class="img-image-responsive">
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                                
+                                
+                                <div class="item">
+                                    <div class="container center">
+                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
+                                            <h4><a target="_new" href="http://www.ourids.eu"><img src="img/ids.png" alt="" class="img-image-responsive"></a></h4>
+                                            <div class="user-img pull-right">                                             
+           
+            <img src="img/ids1.png" alt="" class="img-image-responsive">
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="item">
+                                    <div class="container center">
+                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
+                                            <h4><a target="_new" href="http://www.cheri.eu.pn/"><img src="img/cheri.png" alt="" class="img-image-responsive"></a></h4>
+                                            <div class="user-img pull-right">                                             
+           
+            <img src="img/cheri1.png" alt="" class="img-image-responsive">
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PRICE DISCOUNT SECTION END -->
+
+<!-- PORTFOLIO SECTION START -->
+<div id="port-folio" class="pad-top-botm" >
+    
+            <div class="row text-center ">
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                    <h2 data-wow-delay="0.5s" class="wow rollIn animated style3"><strong>ПОРТФОЛИО </strong></h2>
+
+		<div class="content">
+				<div id="rg-gallery" class="rg-gallery">
+					<div class="rg-thumbs">
+						<!-- Elastislide Carousel Thumbnail Viewer -->
+						<div class="es-carousel-wrapper">
+							<div class="es-nav">
+								<span class="es-nav-prev">Previous</span>
+								<span class="es-nav-next">Next</span>
+							</div>
+							<div class="es-carousel">
+								<ul>
+									<li><a href="#"><img src="images/small/1.jpg" data-large="images/large/1.jpg" alt="image1" data-description="mdcars.eu.pn slideshow" /></a></li>
+									<li><a href="#"><img src="images/small/2.jpg" data-large="images/large/2.jpg" alt="image2" data-description="mdcars.eu.pn slideshow" /></a></li>
+									<li><a href="#"><img src="images/small/3.jpg" data-large="images/large/3.jpg" alt="image3" data-description="mdcars.eu.pn gallery" /></a></li>
+									<li><a href="#"><img src="images/small/4.jpg" data-large="images/large/4.jpg" alt="image4" data-description="mdcars.eu.pn gallery" /></a></li>
+									<li><a href="#"><img src="images/small/5.jpg" data-large="images/large/5.jpg" alt="image5" data-description="mdcars.eu.pn gallery" /></a></li>
+									<li><a href="#"><img src="images/small/6.jpg" data-large="images/large/6.jpg" alt="image6" data-description="mdcars.eu.pn gallery" /></a></li>
+									<li><a href="#"><img src="images/small/7.jpg" data-large="images/large/7.jpg" alt="image7" data-description="mdcars.eu.pn gallery" /></a></li>
+									<li><a href="#"><img src="images/small/8.jpg" data-large="images/large/8.jpg" alt="image8" data-description="mdcars.eu.pn gallery" /></a></li>
+									<li><a href="#"><img src="images/small/9.jpg" data-large="images/large/9.jpg" alt="image9" data-description="mdcars.eu.pn upload" /></a></li>
+									<li><a href="#"><img src="images/small/10.jpg" data-large="images/large/10.jpg" alt="image10" data-description="mdcars.eu.pn videos" /></a></li>
+									<li><a href="#"><img src="images/small/11.jpg" data-large="images/large/11.jpg" alt="image11" data-description="mdcars.eu.pn contact" /></a></li>
+									<li><a href="#"><img src="images/small/12.jpg" data-large="images/large/12.jpg" alt="image12" data-description="alayaart.com slideshow" /></a></li>
+									<li><a href="#"><img src="images/small/13.jpg" data-large="images/large/13.jpg" alt="image13" data-description="alayaart.com menu" /></a></li>
+									<li><a href="#"><img src="images/small/14.jpg" data-large="images/large/14.jpg" alt="image14" data-description="alayaart.com gallery" /></a></li>
+									<li><a href="#"><img src="images/small/15.jpg" data-large="images/large/15.jpg" alt="image15" data-description="alayaart.com gallery" /></a></li>
+									<li><a href="#"><img src="images/small/16.jpg" data-large="images/large/16.jpg" alt="image16" data-description="alayaart.com gallery" /></a></li>
+									<li><a href="#"><img src="images/small/17.jpg" data-large="images/large/17.jpg" alt="image17" data-description="alayaart.com gallery" /></a></li>
+									<li><a href="#"><img src="images/small/18.jpg" data-large="images/large/18.jpg" alt="image18" data-description="alayaart.com gallery" /></a></li>
+									<li><a href="#"><img src="images/small/19.jpg" data-large="images/large/19.jpg" alt="image19" data-description="alayaart.com gallery" /></a></li>
+									<li><a href="#"><img src="images/small/20.jpg" data-large="images/large/20.jpg" alt="image20" data-description="alayaart.com gallery" /></a></li>
+									<li><a href="#"><img src="images/small/21.jpg" data-large="images/large/21.jpg" alt="image21" data-description="alayaart.com gallery" /></a></li>
+									<li><a href="#"><img src="images/small/22.jpg" data-large="images/large/22.jpg" alt="image22" data-description="alayaart.com gallery" /></a></li>
+									<li><a href="#"><img src="images/small/23.jpg" data-large="images/large/23.jpg" alt="image23" data-description="alayaart.com gallery" /></a></li>
+									<li><a href="#"><img src="images/small/24.jpg" data-large="images/large/24.jpg" alt="image24" data-description="alayaart.com gallery" /></a></li>
+                                                                        <li><a href="#"><img src="images/small/25.jpg" data-large="images/large/25.jpg" alt="image25" data-description="alayaart.com gallery" /></a></li>
+                                                                        <li><a href="#"><img src="images/small/26.jpg" data-large="images/large/26.jpg" alt="image26" data-description="alayaart.com contact" /></a></li>
+			                                                <li><a href="#"><img src="images/small/27.jpg" data-large="images/large/27.jpg" alt="image27" data-description="ourids.eu home" /></a></li>
+									<li><a href="#"><img src="images/small/28.jpg" data-large="images/large/28.jpg" alt="image28" data-description="ourids.eu products" /></a></li>
+									<li><a href="#"><img src="images/small/29.jpg" data-large="images/large/29.jpg" alt="image29" data-description="ourids.eu products" /></a></li>
+									<li><a href="#"><img src="images/small/30.jpg" data-large="images/large/30.jpg" alt="image30" data-description="ourids.eu news" /></a></li>
+									<li><a href="#"><img src="images/small/31.jpg" data-large="images/large/31.jpg" alt="image31" data-description="ourids.eu contact" /></a></li>
+									<li><a href="#"><img src="images/small/32.jpg" data-large="images/large/32.jpg" alt="image32" data-description="cheri.eu.pn slideshow" /></a></li>
+									<li><a href="#"><img src="images/small/33.jpg" data-large="images/large/33.jpg" alt="image33" data-description="cheri.eu.pn about us" /></a></li>
+									<li><a href="#"><img src="images/small/34.jpg" data-large="images/large/34.jpg" alt="image34" data-description="cheri.eu.pn gallery" /></a></li>
+									<li><a href="#"><img src="images/small/35.jpg" data-large="images/large/35.jpg" alt="image35" data-description="cheri.eu.pn gallery" /></a></li>
+									<li><a href="#"><img src="images/small/36.jpg" data-large="images/large/36.jpg" alt="image36" data-description="cheri.eu.pn gallery" /></a></li>
+									<li><a href="#"><img src="images/small/37.jpg" data-large="images/large/37.jpg" alt="image37" data-description="cheri.eu.pn gallery" /></a></li>
+									<li><a href="#"><img src="images/small/38.jpg" data-large="images/large/38.jpg" alt="image38" data-description="cheri.eu.pn gallery" /></a></li>
+									<li><a href="#"><img src="images/small/39.jpg" data-large="images/large/39.jpg" alt="image39" data-description="cheri.eu.pn contact" /></a></li>
+									<li><a href="#"><img src="images/small/40.jpg" data-large="images/large/40.jpg" alt="image40" data-description="cheri.eu.pn google map" /></a></li>
+									  					
+                                                                </ul>
+                                                                
+							</div>
+						</div>
+						<!-- End Elastislide Carousel Thumbnail Viewer -->
+					</div><!-- rg-thumbs -->
+				</div><!-- rg-gallery -->
+    </div>
+</div>
+    </div>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.tmpl.min11.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.311.js"></script>
+		<script type="text/javascript" src="js/jquery.elastislide11.js"></script>
+		<script type="text/javascript" src="js/gallery11.js"></script>
+ <!-- PORTFOLIO SECTION END -->
+
+<!-- PRICE SECTION START -->
+<div id="price">
+<div class="container group">
+     <div class="row text-center ">
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                <br>
+                <br>
+                <br>
+                <br>
+    <h2 data-wow-delay="0.5s" class="wow rollIn animated style3"><strong>ЦЕНОВА ЛИСТА </strong></h2>
+    <br>
+         </div>
+         </div>
+		<div class="grid-1-5">
+			<h2>Basic</h2>
+            
+			<ul>
+				<li>Готов дизайн</li>
+				<li>Брой страници до 5</li>
+                <li>Мобилна версия</li>
+                <li>Безплатен Хостинг</li>
+                <li>По избор (месечна подръжка на вашия уеб сайт цена по договаряне)</li>
+                <a href="http://amddevelopers.co.nf/?page_id=284"><li>Информация за плана "BASIC"</li></a>
+			</ul>
+			<a href="#contact" class="button">ЗАЯВИ</a>
+		</div>
+		<div class="grid-1-5">
+			<h2>Start</h2>
+           
+			<ul>
+				<li>Подобрен дизайн</li>
+				<li>Брой страници от 5 до 10</li>
+				<li>Мобилна версия</li>
+                <li>Безплатен Хостинг</li>
+                <li>Seo оптимизация</li>
+                <li>По избор (месечна подръжка на вашия уеб сайт цена по договаряне)</li>
+                <a href="#"><li>Информация за плана "START"</li></a>
+			</ul>
+            
+			<a href="#contact" class="button">ЗАЯВИ</a>	
+		</div>
+		<div class="grid-1-5">
+			<h2>PRO</h2>
+            
+			<ul>
+				<li>Подобрен дизайн</li>
+				<li>Брой страници от 5 до 10</li>
+				<li>Мобилна версия</li>
+                <li>Платен Хостинг за 1 година</li>
+                <li>Seo оптимизация</li>
+                <li>Facebook page</li>
+                <li>По избор (месечна подръжка на вашия уеб сайт и facebook цена по договаряне)</li>
+                <a href="#"><li>Информация за плана "PRO"</li></a>
+			</ul>	
+			<a href="#contact" class="button">ЗАЯВИ</a>		
+		</div>
+		<div class="grid-1-5">
+			<h2>Individual</h2>
+			<h3>по договаряне<sub></sub></h3>
+			<ul>
+				<li>Изработка на изцяло индивидуален дизайн</li>
+			</ul>	
+			<a href="#contact" class="button">ЗАЯВИ</a>		
+		</div>
+		<div class="grid-1-5">
+			<h2>Promotions</h2>
+            <h3><sub></sub></h3>
+			<ul>
+			<li>При заявка на "START" пакет получавате безплатно 2 месеца подръжка</li>
+            </ul>
+			<a href="#contact" class="button">ЗАЯВИ</a>
+		</div>		
+	</div>
+
+</div>
+<br>
+<br>
+<!-- PRICE SECTION START -->
+
+<!-- CONTACT SECTION START -->
+    <div id="contact" >
+        <div class="container">
+            <div class="row text-center">
+              <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                    <h2 class="wow rollIn animated style3" data-wow-delay="0.3s">Контакти</h2>
+                  <p class="sub-head">&nbsp;</p>
+                </div>
+            </div>
+            <div class="row  text-center wow rotateIn animated" data-wow-delay="0.4s">
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                 <a href="https://www.facebook.com/A.M.D.Developers/">   <img src="img/Social/facebook.png" alt="" border="0" /></a>
+                  <a href="#"></a>
+                  <a href="#"></a> 
+                  </div>
+          </div>
+          <br>
+            <div class="row text-center">
+                      <i class="fa fa-envelope fa-lg"></i>
+	         <span>Email: amddevelopers94@gmail.com</span>
+	         </div>
+            <div class="row pad-top-botm">
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                    <form action="mailto:amddevelopers94@gmail.com" method="post" enctype="text/plain">
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control wow rotateIn animated" data-wow-delay="0.5s" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="mail" class="form-control wow rotateIn animated" required data-wow-delay="0.6s" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="comment" required="required" data-wow-delay="0.7s" class="wow rotateIn animated form-control" style="min-height: 150px;" placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" value="Send" class="btn btn-success btn-block btn-lg wow rotateIn animated " data-wow-delay="0.8s">SEND REQUEST</button>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+            
+        </div>
+        
+    </div>
+   
+    <!-- CONTACT SECTION END -->
+
+<!-- FOOTER SECTION START -->
+    <div id="footser-end">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                   &copy; 2021 A.M.D. Developers 
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- FOOTER SECTION END -->
+
+    <!--  Jquery Core Script -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <!--  Core Bootstrap Script -->
+    <script src="js/bootstrap.js"></script>
+     <!--  WOW Script -->
+    <script src="js/wow.min.js"></script>
+    <!--  Scrolling Script -->
+    <script src="js/jquery.easing.min.js"></script>
+    <!--  PrettyPhoto Script -->
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <!--  Custom Scripts -->
+    <script src="js/custom.js"></script>
+   <!--  Portfolio Scripts -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.elastislide.js"></script>
+	<script type="text/javascript" src="js/gallery.js"></script>
+        <!--GOOGLE script-->
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90090704-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!--GOOGLE script end-->
+
+</body>
+</html>
